@@ -79,7 +79,7 @@
     
 }
 
-/* Styles for the call to action segment */
+/* Styles for the call to action page section */
 .cta {
     display: flex;
     justify-content: center;
@@ -133,4 +133,79 @@
 
 h1, h3, .logo, .cta-text {
     color: #F9FAF8;
+}
+
+/* Styles for header and hero page sections */
+.page-top {
+    background-color: #1F2937;
+    display: flex;
+    padding: 0 32px;
+    margin: 0;
+    flex-direction: column;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    gap: 32px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 32px;
+    padding: 32px;
+}
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex: 1 1 0;
+    padding: 40px;
+    gap: 32px;
+}
+
+.hero-img-placeholder {
+    height: 200px;
+    width: 300px;
+    flex: 1 1 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6D747D;
+    color: #E5E7EB;
+}
+
+.hero-left h1 {
+    font-size: 48px;
+    font-weight: 900;
+    justify-content: left;
+    align-items: center;
+}
+
+.hero-left p {
+    color: #E5E7EB;
+}
+
+.hero-left .sign-up {
+    border: none;
 }
