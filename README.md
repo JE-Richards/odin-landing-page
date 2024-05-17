@@ -10,3 +10,4 @@ The aim of the project is to practice utilising the various aspects of HTML and 
 
 
 ## Acknowledgements
+The 'Roboto' font used is provided by Google Fonts: https://fonts.google.com/specimen/Roboto/tester 
