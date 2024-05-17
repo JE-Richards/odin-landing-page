@@ -139,8 +139,6 @@ h1, h3, .logo, .cta-text {
 .page-top {
     background-color: #1F2937;
     display: flex;
-    padding: 0 32px;
-    margin: 0;
     flex-direction: column;
 }
 
@@ -167,7 +165,7 @@ ul li a {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 32px;
-    padding: 32px;
+    padding: 32px 130px 32px 130px;
 }
 
 body {
@@ -178,15 +176,15 @@ body {
 .hero {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     flex: 1 1 0;
-    padding: 40px;
+    padding: 0px 130px 32px 130px;
     gap: 32px;
 }
 
 .hero-img-placeholder {
     height: 200px;
-    width: 300px;
+    max-width: 600px;
     flex: 1 1 0;
     display: flex;
     justify-content: center;
@@ -199,7 +197,7 @@ body {
     font-size: 48px;
     font-weight: 900;
     justify-content: left;
-    align-items: center;
+    /* align-items: center; */
 }
 
 .hero-left p {
@@ -208,6 +206,11 @@ body {
 
 .hero-left .sign-up {
     border: none;
+}
+
+.hero-left {
+    max-width: 600px;
+    align-items: start;
 }
 
 /* Styles for Footer */
@@ -226,7 +229,7 @@ body {
     display: flex;
     background-color: #E5E7EB;
     justify-content: center;
-    padding: 40px;
+    padding: 40px 130px 40px 130px;
 }
 
 .quote .quote-text {
