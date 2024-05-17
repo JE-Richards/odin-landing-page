@@ -72,3 +72,65 @@
   }
   
   /* Styles for the landing page */
+
+* {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    
+}
+
+/* Styles for the call to action segment */
+.cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-container {
+    background-color: #3882F6;
+    display: flex;
+    border: none;
+    border-radius: 8px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 90px;
+    flex: 1;
+    margin: 100px 130px;
+}
+
+.cta-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.sign-up {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 8px 32px;
+    text-decoration: none;
+    flex-wrap: nowrap;
+    text-wrap: nowrap;
+}
+
+.cta-container .sign-up {
+    border: solid #F9FAF8;
+}
+
+.cta-text h3 {
+    font-size: 24px;
+    padding: 0;
+    margin: 0;
+
+}
+
+.cta-text p {
+    padding: 0;
+    margin: 0;
+}
+
+h1, h3, .logo, .cta-text {
+    color: #F9FAF8;
+}
