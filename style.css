@@ -220,3 +220,23 @@ body {
     flex: 1 1 auto;
     height: 100px;
 }
+
+/* Styles for quote */
+.quote {
+    display: flex;
+    background-color: #E5E7EB;
+    justify-content: center;
+    padding: 40px;
+}
+
+.quote .quote-text {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote .quote-person {
+    text-align: end;
+    font-weight: 700;
+}
