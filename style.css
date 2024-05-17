@@ -250,6 +250,7 @@ body {
     flex-wrap: wrap;
     padding: 48px 48px 96px 48px;
     gap: 36px;
+    justify-content: center;
   }
 
 .info-img-placeholder {
