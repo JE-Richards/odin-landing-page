@@ -209,3 +209,14 @@ body {
 .hero-left .sign-up {
     border: none;
 }
+
+/* Styles for Footer */
+.footer {
+    color: #F9FAF8;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 auto;
+    height: 100px;
+}
